@@ -4,9 +4,13 @@
 This repository contains an R-based analysis of purchase orders and inventory data, based on 2 mock datasets. The project answers the following key questions:
 
 1️⃣ Outstanding Quantity per Article per Month
+
 2️⃣ Number of Deleted Purchase Orders
+
 3️⃣ Number of Purchase Orders for e-Commerce
+
 4️⃣ Total e-Commerce Order Value
+
 5️⃣ Expected vs. Actual Date of Receipt
 
 ## 📂 Repository Contents
@@ -35,6 +39,9 @@ Alternatively:
 
 3️⃣ Ensure required libraries are installed before they are run. 
 
-📩 Contact
-For questions, feel free to reach out via LinkedIn.
+## 📩 Contact  
+
+If you have any questions or would like to discuss this research further, feel free to reach out on **LinkedIn**:  
+🔗 [Myrsini Stefanaki](https://www.linkedin.com/in/myrsini-stefanaki-b0a031100/)
+
 
