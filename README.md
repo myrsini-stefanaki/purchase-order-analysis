@@ -14,10 +14,10 @@ This repository contains an R-based analysis of purchase orders and inventory da
 5️⃣ Expected vs. Actual Date of Receipt
 
 ## 📂 Repository Contents
-- `order_analysis.R` |	R script containing the full analysis
+- `clean_order_analysis.R` |	R script containing the full analysis
 - `order_analysis.rmd`	| Notebook for RStudio
 - `anonymized_masterdata.csv` | Dataset used for calculations
-- `tanonymized_orders.csv` | Dataset used for calculations
+- `anonymized_orders.csv` | Dataset used for calculations
 - `README.md` |	This file
 
 ## 🛠️ How to Run the Code
@@ -25,7 +25,7 @@ This repository contains an R-based analysis of purchase orders and inventory da
 1️⃣ Download the Repository
 - Select anonymized_orders.csv and click **Download Raw File**
 - Select anonymized_masterdata.csv and click **Download Raw File**
-- Select order_analysis.R and click **Download Raw File**
+- Select clean_order_analysis.R and click **Download Raw File**
 - **OR**, Select order_analysis.Rmd and click **Download Raw File** to run in **R Studio**
 
 Alternatively:
