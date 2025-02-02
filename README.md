@@ -9,38 +9,31 @@ This repository contains an R-based analysis of purchase orders and inventory da
 4️⃣ Total e-Commerce Order Value
 5️⃣ Expected vs. Actual Date of Receipt
 
-
 ## 📂 Repository Contents
--order_analysis.R |	R script containing the full analysis
--order_analysis.Rmd	| Notebook for RStudio
--anonymized_masterdata.csv | Dataset used for calculations
--anonymized_orders.csv
--README.md	This file.
+- `order_analysis.R` |	R script containing the full analysis
+- `order_analysis.rmd`	| Notebook for RStudio
+- `anonymized_masterdata.csv` | Dataset used for calculations
+- `tanonymized_orders.csv` | Dataset used for calculations
+- `README.md` |	This file
 
-🛠️ How to Run the Code
+## 🛠️ How to Run the Code
+
 1️⃣ Download the Repository
+- Select anonymized_orders.csv and click **Download Raw File**
+- Select anonymized_masterdata.csv and click **Download Raw File**
+- Select order_analysis.R and click **Download Raw File**
+- **OR**, Select order_analysis.Rmd and click **Download Raw File** to run in **R Studio**
 
-2️⃣ Open the R Script
-Open purchase_order_analysis.R in RStudio or any R environment.
+Alternatively:
+- Clone it using Git:  
+     ```bash
+     git clone https://github.com/myrsini-stefanaki/purchase-order-analysis.git
+     cd purchase-order-analysis
+     ```
 
-3️⃣ Install Required Libraries
+2️⃣ Open the `.Rmd` file in RStudio or the `.R` file in Base R or another compatible console.
 
-## 📊 Key Insights from the Analysis
-
-🔹 How much outstanding quantity exists per article per month?
-Used group_by() and summarize() to calculate quantities.
-
-🔹 How many purchase orders were deleted?
-Filtered rows where status = "deleted".
-
-🔹 How many purchase orders are for e-Commerce?
-Identified e-Com orders using filter(channel == "e-Com").
-
-🔹 Summarized total e-Com order value
-Aggregated order values per category.
-
-🔹 Expected vs. Actual Date of Receipt
-Compared expected_date and actual_date using mutate() and case_when().
+3️⃣ Ensure required libraries are installed before they are run. 
 
 📩 Contact
 For questions, feel free to reach out via LinkedIn.
